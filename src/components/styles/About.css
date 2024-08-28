@@ -1,0 +1,11 @@
+.About {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.content {
+  font-size: 2vh;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 3vh;
+}

@@ -1,0 +1,18 @@
+.Lavori {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.wall {
+  margin-top: 2vh;
+}
+
+.section-title {
+  margin-top: 2vh;
+  font-family: var(--primaryFont);
+  font-size: 3vh;
+  font-weight: bold;
+  font-optical-sizing: auto;
+  color: #AD49E1 !important;
+  text-align: left;
+}

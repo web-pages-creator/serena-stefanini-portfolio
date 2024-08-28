@@ -1,0 +1,103 @@
+.Title-wide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  background-clip: text;
+  margin-top: 4vh;
+}
+
+.Title-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  background-clip: text;
+  margin-top: 4vh;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.title-content {
+  font-family: var(--primaryFont);
+  font-size: 7vh;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  background: linear-gradient(45deg, #EBD3F8, #AD49E1, #7A1CAC, #2E073F);
+  background-clip: text;
+  color: transparent;
+  letter-spacing: -0.05em;
+  line-height: 6vh;
+  text-align: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.subtitle-content {
+  font-family: var(--primaryFont);
+  font-size: 2.5vh;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background: linear-gradient(45deg, #EBD3F8, #AD49E1, #7A1CAC, #2E073F);
+  background-clip: text;
+  color: transparent;
+  width: 60%;
+  min-width: 350px;
+  text-align: left;
+}
+
+.subtitle-content-small {
+  font-family: var(--primaryFont);
+  font-size: 2.5vh;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background: linear-gradient(45deg, #EBD3F8, #AD49E1, #7A1CAC, #2E073F);
+  background-clip: text;
+  color: transparent;
+  width: 90%;
+  text-align: center;
+}
+
+.profile {
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50% ;
+}
+
+@media (max-width: 400px) {
+  /* really tiny screens */
+  .Title {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    justify-content: center;
+    background-clip: text;
+    margin-top: 4vh;
+  }
+}
+@media (min-width: 400px) {
+  .Title {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: center;
+    background-clip: text;
+    margin-top: 4vh;
+  }
+  /* a little bit bigger screens */
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* Basically up to, but not including an iPad */
+}
+@media (min-width: 768px) {
+  /* iPad and bigger */
+}
